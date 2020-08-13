@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+
+body {
+  margin: 0px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  font-style: normal;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+.container {
+  margin:0 auto;
+  width: 1060px;
+}
+.header {
+  background-color: #4b73b5;
+}
+.header__container {
+  position: relative;
+  height: 77px;
+}
+.header__logo {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.header__contacts {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform:translateY(-50%);
+}
+.contacts {
+  text-align: right;
+  color: #fff;
+}
+.contacts__phone {
+  display: block;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  text-align: right;
+}
+.contacts__hours {
+  display: block;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  opacity: .7;
+  text-decoration: underline;
+}
+.page-content {
+  padding: 13px;
+  font-size: 0;
+}
+.sidebar {
+  display: inline-block;
+  vertical-align: top;
+  width: 15%;
+  padding-top: 30px;
+}
+.main-content {
+  display: inline-block;
+  vertical-align: top;
+  width: 85%;
+}
+.nav__list {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 2.4px;
+  text-align: left;
+  color: #4b73b5;
+  text-transform: uppercase;
+}
+.nav__item {
+  margin-bottom: 40px;
+}
+.nav__item:last-child {
+  margin-bottom: 0;
+}
+.nav__item--active .nav__link--icon--main::before {
+  background-image: url('./img/main_icon.png');
+}
+.nav__item--active .nav__link--icon--feed:before {
+  background-image: url('./img/feed_icon-hover.png');
+}
+.nav__item--active .nav__link--icon--team:before {
+  background-image: url('./img/team_icon-hover.png');
+}
+.nav__item--active {
+  color: #221f1f;
+}
+.nav__item:hover {
+  color: #221f1f;
+}
+.nav__link {
+  display: block;
+}
+.nav__link::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 23px;
+  height: 18px;
+  margin-right: 19px;
+  background: center center /contain no-repeat;
+}
+.nav__link--icon--main::before {
+  background-image: url('./img/main_icon.png');
+}
+.nav__link--icon--feed::before {
+  background-image: url('./img/feed_icon.png');
+}
+.nav__link--icon--team::before {
+  background-image: url('./img/team_icon.png');
+}
+.nav__link--icon--main:hover::before {
+  background-image: url('./img/main_icon.png');
+}
+.nav__link--icon--feed:hover:before {
+  background-image: url('./img/feed_icon-hover.png');
+}
+.nav__link--icon--team:hover:before {
+  background-image: url('./img/team_icon-hover.png');
+}
+.slogan__img {
+  display: block;
+  max-width: 100%;
+}
+.tariff {
+  padding-top: 16px;
+  color: #221f1f;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+.tariff h2 {
+  margin: 0;
+  font-size: 49px;
+  font-weight: bold;
+  text-align-last: left;
+  margin-bottom: 70px;
+}
+.tariff__list {
+  width: 94%;
+  display: block;
+  margin: 0 auto;
+}
+.tariff__list h4 {
+  margin: 0;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 2.64px;
+  margin-bottom: 26px;
+}
+.tariff__item {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  margin-right: 33px;
+}
+.tariff__item:last-child {
+  margin-right: 0;
+}
+.tariff__item p {
+  margin: 0;
+}
+.tariff__img {
+  display: block;
+  position: relative;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background-color: #4b73b5;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+.tariff__img img {
+  /* display: block; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 32px;
+  height: 32px;
+}
+.tariff__desc {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.67;
+}
+.tariff__list-info {
+  padding-left: 35px;
+}
+.tariff__item-info {
+  list-style: disc;
+  text-align: left;
+  padding-left: 15px;
+}
