@@ -59,19 +59,19 @@ ul li {
 }
 .page-content {
   padding-top: 13px;
-  padding-bottom: 60px;
+  padding-bottom: 58px;
   font-size: 0;
 }
 .sidebar {
   display: inline-block;
   vertical-align: top;
-  width: 15%;
-  padding-top: 30px;
+  width: 17%;
+  padding-top: 32px;
 }
 .main-content {
   display: inline-block;
   vertical-align: top;
-  width: 85%;
+  width: 83%;
 }
 .nav__list {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
@@ -85,7 +85,7 @@ ul li {
   text-transform: uppercase;
 }
 .nav__item {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .nav__item:last-child {
   margin-bottom: 0;
@@ -114,7 +114,7 @@ ul li {
   vertical-align: middle;
   width: 23px;
   height: 18px;
-  margin-right: 19px;
+  margin-right: 16px;
   background: center center /contain no-repeat;
 }
 .nav__link--icon--main::before {
@@ -140,7 +140,7 @@ ul li {
   max-width: 100%;
 }
 .tariff {
-  padding-top: 16px;
+  padding-top: 12px;
   color: #212121;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
@@ -152,7 +152,7 @@ ul li {
   margin-bottom: 70px;
 }
 .tariff__list {
-  width: 94%;
+  /* width: 94%; */
   display: block;
   margin: 0 auto;
 }
@@ -161,14 +161,14 @@ ul li {
   font-size: 11px;
   font-weight: bold;
   letter-spacing: 2.64px;
-  margin-bottom: 26px;
+  margin-bottom: 17px;
   text-transform: uppercase;
 }
 .tariff__item {
   display: inline-block;
-  width: 30%;
+  width: 28%;
   text-align: center;
-  margin-right: 33px;
+  margin-right: 25px;
 }
 .tariff__item:last-child {
   margin-right: 0;
@@ -179,12 +179,12 @@ ul li {
 .tariff__img {
   display: block;
   position: relative;
-  width: 72px;
-  height: 72px;
+  width: 68px;
+  height: 68px;
   border-radius: 50%;
   background-color: #4b73b5;
   margin: 0 auto;
-  margin-bottom: 35px;
+  margin-bottom: 31px;
 }
 .tariff__img img {
   /* display: block; */
@@ -200,10 +200,11 @@ ul li {
   font-weight: 300;
   line-height: 1.67;
   color: #221f1f;
-  margin-bottom: 35px;
+  margin-bottom: 16px;
 }
 .tariff__list-info {
   padding-left: 35px;
+  line-height: 2;
 }
 .tariff__item-info {
   list-style: disc;
@@ -214,18 +215,18 @@ ul li {
   font-size: 54px;
 }
 .news {
-  padding-top: 109px;
+  padding-top: 84px;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 .news h2 {
   margin: 0;
   font-size: 49px;
   font-weight: bold;
-  margin-bottom: 72px;
+  margin-bottom: 68px;
   text-align: left;
 }
 .news__item {
-  margin-bottom: 25px;
+  margin-bottom: 22px;
 }
 .news__item:last-child {
   margin-bottom: 0;
@@ -237,7 +238,7 @@ ul li {
   height: 1px;
   background-color: #f5f5f5;
   margin: 0 auto;
-  margin-bottom: 24px;
+  margin-bottom: 29px;
 }
 .news__item:first-child::before {
   display: none;
@@ -248,7 +249,7 @@ ul li {
   height: 160px;
   border-radius: 50%;
   overflow: hidden;
-  margin-right: 20px;
+  margin-right: 18px;
 }
 .news__pic {
   display: block;
@@ -259,13 +260,14 @@ ul li {
 .news__desc {
   display: inline-block;
   vertical-align: top;
-  width: 80%;
+  width: 79%;
 }
 .news__desc span {
+  display: block;
   font-size: 18px;
   font-weight: bold;
   color: #221f1f;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 .news__desc p {
   margin: 0;
@@ -278,7 +280,7 @@ ul li {
   font-weight: 300;
   text-align: left;
   color: #656464;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
 }
 .pagination {
   padding-top: 58px;
@@ -340,7 +342,7 @@ ul li {
 }
 .withlove {
   display: inline-block;
-  width: 30%;
+  width: 21%;
   font-weight: 300;
   text-align: left;
 }
@@ -356,7 +358,7 @@ ul li {
 .footer__logo {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 44%;
   transform: translateY(-50%);
 }
 .footer__network {
@@ -370,6 +372,7 @@ ul li {
   margin: 0;
   margin-bottom: 8px;
   font-weight: bold;
+  font-size: 14px;
 }
 .network__item {
   display: inline-block;
