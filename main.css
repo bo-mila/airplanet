@@ -58,7 +58,8 @@ ul li {
   text-decoration: underline;
 }
 .page-content {
-  padding: 13px;
+  padding-top: 13px;
+  padding-bottom: 60px;
   font-size: 0;
 }
 .sidebar {
@@ -325,4 +326,74 @@ ul li {
 }
 .page-next {
   display: inline-block;
+}
+.footer {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #fff;
+  background-color: #4b73b5;
+}
+.footer__container {
+  position: relative;
+}
+.withlove {
+  display: inline-block;
+  width: 30%;
+  font-weight: 300;
+  text-align: left;
+}
+.withlove p {
+  margin: 0;
+}
+.withlove a {
+  font-weight: bold;
+}
+.footer__loftschool {
+  text-decoration: underline;
+}
+.footer__logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%);
+}
+.footer__network {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+.network h5 {
+  margin: 0;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+.network__item {
+  display: inline-block;
+  margin-right: 5px;
+}
+.network__item:last-child {
+  margin-right: 0;
+}
+.network__icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: .7;
+  transition: .7s;
+  position: relative;
+}
+.network__icon:hover {
+  opacity: 1;
+}
+.network__pic {
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
