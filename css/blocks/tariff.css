@@ -1,0 +1,75 @@
+.tariff {
+  padding-top: 12px;
+  color: #212121;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+.tariff h2 {
+  margin: 0;
+  font-size: 49px;
+  font-weight: bold;
+  text-align-last: left;
+  margin-bottom: 70px;
+}
+.tariff__list {
+  /* width: 94%; */
+  display: block;
+  margin: 0 auto;
+}
+.tariff__list h4 {
+  margin: 0;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 2.64px;
+  margin-bottom: 17px;
+  text-transform: uppercase;
+}
+.tariff__item {
+  display: inline-block;
+  width: 28%;
+  text-align: center;
+  margin-right: 25px;
+}
+.tariff__item:last-child {
+  margin-right: 0;
+}
+.tariff__item p {
+  margin: 0;
+}
+.tariff__img {
+  display: block;
+  position: relative;
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  background-color: #4b73b5;
+  margin: 0 auto;
+  margin-bottom: 31px;
+}
+.tariff__img img {
+  /* display: block; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 32px;
+  height: 32px;
+}
+.tariff__desc {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.67;
+  color: #221f1f;
+  margin-bottom: 16px;
+}
+.tariff__list-info {
+  padding-left: 35px;
+  line-height: 2;
+}
+.tariff__item-info {
+  list-style: disc;
+  text-align: left;
+  padding-left: 15px;
+}
+.tariff__price span {
+  font-size: 54px;
+}

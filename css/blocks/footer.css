@@ -1,0 +1,27 @@
+.footer {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #fff;
+  background-color: #4b73b5;
+}
+.footer__container {
+  position: relative;
+}
+.footer__loftschool {
+  text-decoration: underline;
+}
+.footer__logo {
+  position: absolute;
+  top: 50%;
+  left: 44%;
+  transform: translateY(-50%);
+}
+.footer__network {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
