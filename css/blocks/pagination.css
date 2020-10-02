@@ -15,3 +15,11 @@
   display: inline-block;
   margin-right: 15px;
 }
+.pagination__prew {
+  display: inline-block;
+  margin-right: 15px;
+  opacity: .7;
+}
+.pagination__next {
+  display: inline-block;
+}

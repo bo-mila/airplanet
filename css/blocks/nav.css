@@ -5,7 +5,6 @@
   font-stretch: normal;
   font-style: normal;
   letter-spacing: 2.4px;
-  text-align: left;
   color: #4b73b5;
   text-transform: uppercase;
 }
@@ -32,12 +31,12 @@
   color: #221f1f;
 }
 .nav__link {
-  display: block;
+  display: flex;
+  align-items: center;
 }
 .nav__link::before {
+  flex-shrink: 0;
   content: "";
-  display: inline-block;
-  vertical-align: middle;
   width: 23px;
   height: 18px;
   margin-right: 16px;

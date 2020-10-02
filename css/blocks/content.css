@@ -3,3 +3,6 @@
   padding-bottom: 58px;
   font-size: 0;
 }
+.content__container {
+  display: flex;
+}

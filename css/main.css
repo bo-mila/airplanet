@@ -10,12 +10,13 @@
 @import url('./blocks/tariff.css');
 @import url('./blocks/news.css');
 @import url('./blocks/pagination.css');
-@import url('./blocks/page-prew.css');
-@import url('./blocks/page-next.css');
 @import url('./blocks/pagelist.css');
 @import url('./blocks/footer.css');
 @import url('./blocks/withlove.css');
 @import url('./blocks/network.css');
+@import url('./blocks/page-content.css');
+@import url('./blocks/breadcrumbs.css');
+@import url('./blocks/main-content-reviews.css');
 
 
 
