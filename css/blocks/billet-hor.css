@@ -1,0 +1,39 @@
+.billet-hor__img {
+  display: inline-block;
+  margin-right: 18px;
+  width: 18%;
+}
+.billet-hor__pic {
+  max-width: 160px;
+  /* height: 160px; */
+  border-radius: 50%;
+  overflow: hidden;
+}
+.billet-hor__pic--gracecale img {
+  filter: grayscale(100%);
+  opacity: .4;
+}
+.billet-hor__desc {
+  display: inline-block;
+  vertical-align: top;
+  width: 75%;
+  color: #221f1f;
+}
+.billet-hor__data {
+  font-size: 14px;
+  font-weight: 300;
+  color: #656464;
+  margin-bottom: 4px;
+}
+.billet-hor__title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.billet-hor__text {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.67;
+  font-weight: 300;
+
+}

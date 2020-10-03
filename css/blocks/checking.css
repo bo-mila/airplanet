@@ -1,0 +1,19 @@
+.checking {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  background-color: #4bb56b;
+  color: #fff;
+  padding: 47px 0 44px 0;
+  line-height: 1.67;
+  background-image: url('/img/pattern.png');
+}
+.checking__container {
+  width: 625px;
+}
+.checking a {
+  font-weight: bold;
+}
+.checking a:first-child {
+  text-decoration: underline;
+}

@@ -6,3 +6,6 @@
 .content__container {
   display: flex;
 }
+.content--reviews {
+  padding-top: 45px;
+}

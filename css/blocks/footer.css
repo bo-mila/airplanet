@@ -7,21 +7,16 @@
   background-color: #4b73b5;
 }
 .footer__container {
-  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__withlove {
+  width: 21%;
 }
 .footer__loftschool {
   text-decoration: underline;
 }
-.footer__logo {
-  position: absolute;
-  top: 50%;
-  left: 44%;
-  transform: translateY(-50%);
-}
 .footer__network {
-  display: inline-block;
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
+  text-align: right;
 }

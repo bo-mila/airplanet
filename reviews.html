@@ -22,15 +22,15 @@
           </address>
         </div>
       </header>
-      <div class="content">
+      <div class="content content--reviews">
         <div class="container content__container">
           <aside class="sidebar">
             <nav class="sidebar__nav nav">
               <ul class="nav__list">
-                <li class="nav__item nav__item--active">
+                <li class="nav__item">
                   <a href="#" class="nav__link nav__link--icon--main">главная</a>
                 </li>
-                <li class="nav__item">
+                <li class="nav__item nav__item--active">
                   <a href="reviews.html" class="nav__link nav__link--icon--feed">отзывы</a>
                 </li>
                 <li class="nav__item">
@@ -45,7 +45,7 @@
                 <li class="breadcrumbs__item">
                   <a href="index.html" class="breadcrumbs__link">Главная</a>
                 </li>
-                <li class="breadcrumbs__item">
+                <li class="breadcrumbs__item breadcrumbs__item--active">
                   <a href="index.html" class="breadcrumbs__link">Отзывы</a>
                 </li>
               </ul>
@@ -65,7 +65,7 @@
                         <div class="billet-hor__data">
                           <span>12.10.2016</span>
                         </div>
-                        <div class="billet-hor__name">
+                        <div class="billet-hor__title">
                           <span>Ирина Паламарчук</span>
                         </div>
                         <div class="billet-hor__text">
@@ -83,7 +83,7 @@
                         <div class="billet-hor__data">
                           <span>01.02.2016</span>
                         </div>
-                        <div class="billet-hor__name">
+                        <div class="billet-hor__title">
                           <span>Александр Бельков</span>
                         </div>
                         <div class="billet-hor__text">
@@ -93,7 +93,7 @@
                     </li>
                     <li class="reviews__item billet-hor">
                       <div class="billet-hor__img">
-                        <div class="billet-hor__pic">
+                        <div class="billet-hor__pic billet-hor__pic--gracecale">
                           <img src="./img/avatar-3.png" alt="" class="img-for-billet-hor">
                         </div>
                       </div>
@@ -101,7 +101,7 @@
                         <div class="billet-hor__data">
                           <span>22.12.2015</span>
                         </div>
-                        <div class="billet-hor__name">
+                        <div class="billet-hor__title">
                           <span>Игорь Николаенко</span>
                         </div>
                         <div class="billet-hor__text">
@@ -119,7 +119,7 @@
                         <div class="billet-hor__data">
                           <span>14.08.2015</span>
                         </div>
-                        <div class="billet-hor__name">
+                        <div class="billet-hor__title">
                           <span>Анастасия Порядная</span>
                         </div>
                         <div class="billet-hor__text">
@@ -160,63 +160,65 @@
                   </div>
                 </section>
               </div>
-              <section class="checking">
-                <p>Вопросы по бронированию билетов в нашей авиакомпании принимаются. Для этого можно оставить <a>заявку на сайте</a> или же позвонить по номеру круглосуточной поддержки <a href="tel:+88000039210">8 (800) 00-392-10</a>.</p>
-              </section>
-              <div class="main-content-reviews__container container">
-                <section class="feadback">
-                  <div class="container feadback__container">
-                    <div class="form">
-                      <h2 class="form__title title">Оставить отзыв</h2>
-                      <form action="get" class="form__elem">
-                        <div class="form__row">
-                          <label class="form__block">
-                            <div class="form__block-title">Ваше имя</div>
-                            <input type="text" class="form__input" placeholder="Андрей">
-                          </label>
-                          <label class="form__block">
-                            <div class="form__block-title">Ссылка на профиль vk</div>
-                            <input type="text" class="form__input" placeholder="vk.com/example">
-                          </label>
-                        </div>
-                        <div class="form__row">
-                          <label class="form__block form__block--textarea">
-                            <div class="form__block-title">Текст отзыва</div>
-                            <textarea type="textarea" class="form__input form__input--textarea" placeholder="Мне понравилось"></textarea>
-                          </label>
-                        </div>
-                        <div class="form__row">
-                          <div class="form__question">
-                            <div class="form__question-title">Отображать фото в отзыве?</div>
-                            <div class="form__question-options">
-                              <label class="option option--active">
-                                <div class="option__radio"></div>
-                                <div class="option__title">Да</div>
-                              </label>
-                              <label class="option">
-                                <div class="option__radio"></div>
-                                <div class="option__title">Нет</div>
-                              </label>
-                            </div>
-                          </div>
-                          <div class="form__buttons buttons">
-                            <input type="reset" value="Очистить" class="buttons__res">
-                            <input type="submit" value="Отправить" class="buttons__sub">
-                          </div>
-                        </div>
-                      </form>
-                    </div>
-                  </div>
-                </section>
-              </div>
             </main>
           </div>
+        </div>
+        <section class="checking">
+          <div class="container checking__container">
+            <p>Вопросы по бронированию билетов в нашей авиакомпании принимаются. Для этого можно оставить <a>заявку на сайте</a> или же позвонить по номеру круглосуточной поддержки <a href="tel:+88000039210">8 (800) 00-392-10</a>.</p>
+          </div>
+        </section>
+        <div class="content__container container">
+          <section class="feadback">
+            <div class="container feadback__container">
+              <div class="form">
+                <h2 class="form__title title">Оставить отзыв</h2>
+                <form action="get" class="form__elem">
+                  <div class="form__row">
+                    <label class="form__block">
+                      <div class="form__block-title">Ваше имя</div>
+                      <input type="text" class="form__input" placeholder="Андрей">
+                    </label>
+                    <label class="form__block">
+                      <div class="form__block-title">Ссылка на профиль vk</div>
+                      <input type="text" class="form__input" placeholder="vk.com/example">
+                    </label>
+                  </div>
+                  <div class="form__row">
+                    <label class="form__block form__block--textarea">
+                      <div class="form__block-title">Текст отзыва</div>
+                      <textarea type="textarea" class="form__input form__input--textarea" placeholder="Мне понравилось"></textarea>
+                    </label>
+                  </div>
+                  <div class="form__row">
+                    <div class="form__question">
+                      <div class="form__question-title">Отображать фото в отзыве?</div>
+                      <div class="form__question-options">
+                        <label class="option option--active">
+                          <div class="option__radio"></div>
+                          <div class="option__title">Да</div>
+                        </label>
+                        <label class="option">
+                          <div class="option__radio"></div>
+                          <div class="option__title">Нет</div>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="form__buttons buttons">
+                      <button type="reset" class="buttons__res">Очистить</button>
+                      <button type="submit" class="buttons__sub">Отправить</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
     </div>
     <footer class="footer">
       <div class="container footer__container">
-        <div class="withlove">
+        <div class="footer_withlove withlove">
           <p>Сделано с любовью и старанием на курсе "HTML+CSS" в 
             <a href="http://loftschool.com" class="footer__loftschool"
             target="_blank">LoftScool</a>.<br> Автор работы: 

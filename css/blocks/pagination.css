@@ -1,24 +1,26 @@
 .pagination {
-  padding-top: 58px;
+  display: block;
   text-align: center;
   font-size: 14px;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-weight: 300;
+  color: #656464;
+  padding-top: 50px;
+  padding-bottom: 64px;
 }
 .pagination__display {
   display: inline-block;
   text-align: left;
-  color: #656464;
   margin-right: 20px;
 }
 .pagination__nav {
   display: inline-block;
-  margin-right: 15px;
 }
 .pagination__prew {
   display: inline-block;
   margin-right: 15px;
   opacity: .7;
+  vertical-align: middle;
 }
 .pagination__next {
   display: inline-block;
