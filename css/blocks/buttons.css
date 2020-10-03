@@ -17,6 +17,7 @@
 }
 .buttons__sub {
   display: flex;
+  align-items: center;
 }
 .buttons__sub:after {
   content: "";

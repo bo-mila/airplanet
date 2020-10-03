@@ -1,0 +1,51 @@
+.billet-ver {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.billet-ver__img {
+  max-width: 160px;
+  overflow: hidden;
+  border-radius: 50%;
+  position: relative;
+  display: block;
+}
+.billet-ver__img::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.6;
+  background-color: #4b73b5;
+}
+.billet-ver__img span {
+  z-index: 10;
+  font-size: 24px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+  line-height: 0.88;
+}
+.billet-ver__desc {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  color: #221f1f;
+  padding-top: 20px;
+  padding-bottom: 45px;
+}
+.billet-ver__title {
+  font-size: 18px;
+}
+.billet-ver__subtitle {
+  color: #4b73b5;
+}
+.billet-ver__text {
+  font-weight: 300;
+}
