@@ -37,14 +37,14 @@
   line-height: 1.5;
   text-align: center;
   color: #221f1f;
-  padding-top: 20px;
-  padding-bottom: 45px;
+  padding: 13px 0 46px 0;
 }
 .billet-ver__title {
   font-size: 18px;
 }
 .billet-ver__subtitle {
   color: #4b73b5;
+  margin-bottom: 4px;
 }
 .billet-ver__text {
   font-weight: 300;

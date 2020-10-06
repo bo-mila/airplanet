@@ -1,5 +1,4 @@
 .breadcrumbs {
-  font-style: italic;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -33,4 +32,5 @@
   display: inline-block;
   vertical-align: middle;
   text-decoration: underline;
+  font-style: italic;
 }
