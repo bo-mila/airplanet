@@ -1,6 +1,5 @@
 .footer {
-  padding-top: 14px;
-  padding-bottom: 14px;
+  padding: 14px 0;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 14px;
   color: #fff;
@@ -17,6 +16,6 @@
 .footer__loftschool {
   text-decoration: underline;
 }
-.footer__network {
-  text-align: right;
+.footer__logo {
+  width: 18%;
 }

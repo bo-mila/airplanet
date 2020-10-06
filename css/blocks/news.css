@@ -1,11 +1,14 @@
 .news {
-  padding-top: 84px;
+  padding-top: 92px;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 .news h2 {
   margin: 0;
   margin-bottom: 68px;
   text-align: left;
+}
+.news__list {
+  margin-bottom: 57px;
 }
 .news__item {
   margin-bottom: 22px;

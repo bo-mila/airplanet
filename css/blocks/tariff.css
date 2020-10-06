@@ -39,8 +39,10 @@
   margin: 0;
 }
 .tariff ul {
-  padding-left: 35px;
+  padding-left: 20px;
   line-height: 2;
+  width: 81%;
+  margin: 0 auto;
 }
 .tariff li {
   list-style: disc;
@@ -48,5 +50,11 @@
   padding-left: 15px;
 }
 .tariff__price span {
-  font-size: 54px;
+  font-size: 52px;
+  letter-spacing: -3.24px;
+  color: #212121;
+}
+.tariff__price span:first-child {
+  font-size: 33px;
+  color: #202020;
 }

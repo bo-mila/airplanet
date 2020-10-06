@@ -1,5 +1,5 @@
 .tariffs {
-  padding-top: 12px;
+  padding-top: 17px;
   color: #212121;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   text-align: center;
@@ -12,8 +12,11 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  width: 90%;
+  margin-left: 0;
 }
 .tariffs__item {
-  width: 31%;
+  /* width: 31%; */
   vertical-align: top;
+  width: calc(100% /3);
 }
