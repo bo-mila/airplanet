@@ -1,5 +1,4 @@
 .page-content {
-  display: inline-block;
+  flex: 1;
   vertical-align: top;
-  width: 83%;
 }

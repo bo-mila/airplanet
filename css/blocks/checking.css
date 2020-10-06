@@ -4,12 +4,12 @@
   font-weight: 300;
   background-color: #4bb56b;
   color: #fff;
-  padding: 47px 0 44px 0;
+  padding: 42px 0 40px 0;
   line-height: 1.67;
   background-image: url('/img/pattern.png');
 }
 .checking__container {
-  width: 625px;
+  width: 59%;
 }
 .checking a {
   font-weight: bold;

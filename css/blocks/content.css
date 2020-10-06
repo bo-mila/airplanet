@@ -7,5 +7,6 @@
   display: flex;
 }
 .content--reviews-team {
-  padding-top: 45px;
+  padding-top: 44px;
+  padding-bottom: 0;
 }
