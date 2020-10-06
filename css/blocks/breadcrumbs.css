@@ -1,0 +1,36 @@
+.breadcrumbs {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  opacity: .8;
+  color: rgba(28, 91, 195, 0.8);
+
+}
+/* .breadcrumbs__container-reviews {
+  width: 968px;
+}
+.breadcrumbs__container-servises {
+  width: 878px;
+} */
+.breadcrumbs__item {
+  display: inline-block;
+  vertical-align: middle;
+}
+.breadcrumbs__item::before {
+  content: "/";
+  display: inline-block;
+  vertical-align: middle;
+}
+.breadcrumbs__item:first-child::before{
+  display: none;
+}
+.breadcrumbs__item--active .breadcrumbs__link{
+  color: rgba(34, 31, 31, 0.8);
+  text-decoration: none;
+}
+.breadcrumbs__link {
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: underline;
+  font-style: italic;
+}

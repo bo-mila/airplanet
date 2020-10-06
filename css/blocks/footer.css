@@ -1,0 +1,21 @@
+.footer {
+  padding: 14px 0;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #fff;
+  background-color: #4b73b5;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__withlove {
+  width: 21%;
+}
+.footer__loftschool {
+  text-decoration: underline;
+}
+.footer__logo {
+  width: 18%;
+}

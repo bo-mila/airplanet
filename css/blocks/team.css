@@ -1,0 +1,14 @@
+.team {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+.team__title {
+  margin-bottom: 40px;
+}
+.team__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.team__item {
+  width: calc(100% /3 - 20px);
+}

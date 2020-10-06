@@ -1,0 +1,30 @@
+.network h5 {
+  margin: 0;
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.network__item {
+  display: inline-block;
+  margin-right: 6px;
+  position: relative;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  opacity: .6;
+  transition: .6s;
+}
+.network__item:last-child {
+  margin-right: 0;
+}
+.network__item:hover {
+  opacity: 1;
+}
+.network__pic {
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}

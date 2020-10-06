@@ -1,0 +1,13 @@
+.header {
+  background-color: #4b73b5;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+.header__contacts {
+  color: #fff;
+}

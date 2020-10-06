@@ -1,0 +1,60 @@
+.tariff {
+  color: #212121;
+}
+.tariff__img {
+  display: block;
+  position: relative;
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  background-color: #4b73b5;
+  margin: 0 auto;
+  margin-bottom: 31px;
+}
+.tariff__img img {
+  /* display: block; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 32px;
+  height: 32px;
+}
+.tariff h4 {
+  margin: 0;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 2.64px;
+  margin-bottom: 17px;
+  text-transform: uppercase;
+}
+.tariff__desc {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.67;
+  color: #221f1f;
+  margin-bottom: 16px;
+}
+.tariff p {
+  margin: 0;
+}
+.tariff ul {
+  padding-left: 20px;
+  line-height: 2;
+  width: 81%;
+  margin: 0 auto;
+}
+.tariff li {
+  list-style: disc;
+  text-align: left;
+  padding-left: 15px;
+}
+.tariff__price span {
+  font-size: 52px;
+  letter-spacing: -3.24px;
+  color: #212121;
+}
+.tariff__price span:first-child {
+  font-size: 33px;
+  color: #202020;
+}

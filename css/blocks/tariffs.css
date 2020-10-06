@@ -1,0 +1,22 @@
+.tariffs {
+  padding-top: 17px;
+  color: #212121;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.tariffs h1 {
+  margin: 0;
+  margin-bottom: 70px;
+}
+.tariffs__list {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-left: 0;
+}
+.tariffs__item {
+  /* width: 31%; */
+  vertical-align: top;
+  width: calc(100% /3);
+}
