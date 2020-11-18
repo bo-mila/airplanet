@@ -18,10 +18,11 @@
   position: relative;
   background-color: #fff;
   border-radius: 50%;
-  width: 20px;
-  height: 20px;
+  width: 22px;
+  height: 22px;
   opacity: .7;
   transition: .6s;
+  cursor: pointer;
 }
 .network__item:last-child {
   margin-right: 0;
@@ -29,10 +30,40 @@
 .network__item:hover {
   opacity: 1;
 }
-.network__pic {
-  opacity: 1;
+.network__item::before {
+  content: "";
   position: absolute;
+  display: block;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+  background-image: url('../../img/sprite-network.png');
+}
+.network__item--vk::before {
+  background-position: -41px -39px;
+  width: 12px;
+  height: 7px;
+}
+.network__item--fb::before {
+  background-position: -77px -10px;
+  width: 6px;
+  height: 13px;
+}
+.network__item--google::before {
+  background-position: -10px -10px;
+  width: 15px;
+  height: 9px;
+}
+.network__item--tw::before {
+  background-position: -10px -39px;
+  width: 11px;
+  height: 9px;
+}
+.network__item--mail::before {
+  background-position: -45px -10px;
+  width: 12px;
+  height: 9px;
+}
+.network__ref {
+  display: block;
 }
