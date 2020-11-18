@@ -25,7 +25,44 @@
       <div class="content content--reviews-team">
         <div class="container content__container">
           <aside class="sidebar sidebar--reviews-team">
-            <nav class="sidebar__nav nav">
+            <section class="checking">
+              <div class="checking__container">
+                <p>Вопросы по бронированию билетов в нашей авиакомпании принимаются. Для этого можно оставить <a>заявку на сайте</a> или же позвонить по номеру круглосуточной поддержки <a href="tel:+88000039210">8 (800) 00-392-10</a>.</p>
+              </div>
+            </section>
+            <div class="network">
+              <h5 class="network__title">Наши социальные сети</h5>
+              <ul class="network__list">
+                <li class="network__item">
+                  <a href="https://vk.com" class="network__ref" target="_blank">
+                    <img src="./img/vk.png" alt="Иконка ВК" class="network__pic icon-vk">
+                  </a>
+                </li>
+                <li class="network__item">
+                  <a href="https://facebook.com" class="network__ref" target="_blank">
+                    <img src="./img/fb.png" alt="Иконка facebook" class="network__pic icon-fb">
+                  </a>
+                </li>
+                <li class="network__item">
+                  <a href="https://google.com" class="network__ref" target="_blank">
+                    <img src="./img/google.png" alt="Иконка google" class="network__pic icon-gl">
+                  </a>
+                </li>
+                <li class="network__item">
+                  <a href="https://twitter.com" class="network__ref" target="_blank">
+                    <img src="./img/twitter.png" alt="Иконка twitter" class="network__pic icon-tw">         
+                  </a>
+                </li>
+                <li class="network__item">
+                  <a href="https://mail.ru" class="network__ref" target="_blank">
+                    <img src="./img/mail.png" alt="Иконка mail" class="network__pic icon-ml">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </aside>
+          <div class="page-content">
+            <nav class="nav">
               <ul class="nav__list">
                 <li class="nav__item">
                   <a href="main.html" class="nav__link nav__link--icon--main">главная</a>
@@ -38,19 +75,7 @@
                 </li>
               </ul>
             </nav>
-          </aside>
-          <div class="page-content">
-            <nav class="breadcrumbs">
-              <ul class="breadcrumbs__list">
-                <li class="breadcrumbs__item">
-                  <a href="main.html" class="breadcrumbs__link">Главная</a>
-                </li>
-                <li class="breadcrumbs__item breadcrumbs__item--active">
-                  <a href="#" class="breadcrumbs__link">Отзывы</a>
-                </li>
-              </ul>
-            </nav>
-            <main class="main-content-reviews">
+            <main class="main-content">
               <section class="reviews">
                 <h1 class="reviews__title title">Отзывы</h1>
                 <ul class="reviews__list">
@@ -158,59 +183,52 @@
                   </div>
                 </div>
               </section>
-            </main>
-          </div>
-        </div>
-        <section class="checking">
-          <div class="container checking__container">
-            <p>Вопросы по бронированию билетов в нашей авиакомпании принимаются. Для этого можно оставить <a>заявку на сайте</a> или же позвонить по номеру круглосуточной поддержки <a href="tel:+88000039210">8 (800) 00-392-10</a>.</p>
-          </div>
-        </section>
-        <div class="content__container container">
-          <section class="feadback">
-            <div class="container feadback__container">
-              <div class="form">
-                <h2 class="form__title title">Оставить отзыв</h2>
-                <form action="get" class="form__elem">
-                  <div class="form__row">
-                    <label class="form__block">
-                      <div class="form__block-title">Ваше имя</div>
-                      <input type="text" class="form__input" placeholder="Андрей">
-                    </label>
-                    <label class="form__block">
-                      <div class="form__block-title">Ссылка на профиль vk</div>
-                      <input type="text" class="form__input" placeholder="vk.com/example">
-                    </label>
-                  </div>
-                  <div class="form__row">
-                    <label class="form__block form__block--textarea">
-                      <div class="form__block-title">Текст отзыва</div>
-                      <textarea type="textarea" class="form__input form__input--textarea" placeholder="Мне понравилось"></textarea>
-                    </label>
-                  </div>
-                  <div class="form__row">
-                    <div class="form__question">
-                      <div class="form__question-title">Отображать фото в отзыве?</div>
-                      <div class="form__question-options">
-                        <label class="option option--active">
-                          <div class="option__radio"></div>
-                          <div class="option__title">Да</div>
+              <section class="feadback">
+                <div class="container feadback__container">
+                  <div class="form">
+                    <h2 class="form__title title">Оставить отзыв</h2>
+                    <form action="get" class="form__elem">
+                      <div class="form__row">
+                        <label class="form__block">
+                          <div class="form__block-title">Ваше имя</div>
+                          <input type="text" class="form__input" placeholder="Андрей">
                         </label>
-                        <label class="option">
-                          <div class="option__radio"></div>
-                          <div class="option__title">Нет</div>
+                        <label class="form__block">
+                          <div class="form__block-title">Ссылка на профиль vk</div>
+                          <input type="text" class="form__input" placeholder="vk.com/example">
                         </label>
                       </div>
-                    </div>
-                    <div class="form__buttons buttons">
-                      <button type="reset" class="buttons__res">Очистить</button>
-                      <button type="submit" class="buttons__sub">Отправить</button>
-                    </div>
+                      <div class="form__row">
+                        <label class="form__block form__block--textarea">
+                          <div class="form__block-title">Текст отзыва</div>
+                          <textarea type="textarea" class="form__input form__input--textarea" placeholder="Мне понравилось"></textarea>
+                        </label>
+                      </div>
+                      <div class="form__row">
+                        <div class="form__question">
+                          <div class="form__question-title">Отображать фото в отзыве?</div>
+                          <div class="form__question-options">
+                            <label class="option option--active">
+                              <div class="option__radio"></div>
+                              <div class="option__title">Да</div>
+                            </label>
+                            <label class="option">
+                              <div class="option__radio"></div>
+                              <div class="option__title">Нет</div>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="form__buttons buttons">
+                          <button type="reset" class="buttons__res">Очистить</button>
+                          <button type="submit" class="buttons__sub">Отправить</button>
+                        </div>
+                      </div>
+                    </form>
                   </div>
-                </form>
-              </div>
-            </div>
-          </section>
+                </div>
+              </section>
+            </main>
+          </div>
         </div>
       </div>
     </div>
@@ -228,36 +246,6 @@
           <a href="main.html" class="logo__ref">
             <img src="./img/logo.png" alt="Лого на главную страницу" class="logo__ref-img">
           </a>
-        </div>
-        <div class="footer__network network">
-          <h5 class="network__title">Наши социальные сети</h5>
-          <ul class="network__list">
-            <li class="network__item">
-              <a href="https://vk.com" class="network__ref" target="_blank">
-                <img src="./img/vk.png" alt="Иконка ВК" class="network__pic icon-vk">
-              </a>
-            </li>
-            <li class="network__item">
-              <a href="https://facebook.com" class="network__ref" target="_blank">
-                <img src="./img/fb.png" alt="Иконка facebook" class="network__pic icon-fb">
-              </a>
-            </li>
-            <li class="network__item">
-              <a href="https://google.com" class="network__ref" target="_blank">
-                <img src="./img/google.png" alt="Иконка google" class="network__pic icon-gl">
-              </a>
-            </li>
-            <li class="network__item">
-              <a href="https://twitter.com" class="network__ref" target="_blank">
-                <img src="./img/twitter.png" alt="Иконка twitter" class="network__pic icon-tw">         
-              </a>
-            </li>
-            <li class="network__item">
-              <a href="https://mail.ru" class="network__ref" target="_blank">
-                <img src="./img/mail.png" alt="Иконка mail" class="network__pic icon-ml">
-              </a>
-            </li>
-          </ul>
         </div>
       </div>
     </footer>

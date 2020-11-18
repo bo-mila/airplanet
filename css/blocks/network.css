@@ -8,6 +8,10 @@
   letter-spacing: normal;
   color: #2d1d1d;
 }
+.network__list {
+  display: flex;
+  justify-content: center;
+}
 .network__item {
   display: inline-block;
   margin-right: 6px;

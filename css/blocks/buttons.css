@@ -11,6 +11,7 @@
   font-weight: bold;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   letter-spacing: 1.2px;
+  transition: .6s;
 }
 .buttons__res {
   margin-right: 7px;
@@ -24,4 +25,11 @@
   background: url('../../img/main_icon-white.png') left 5px center no-repeat ;
   width: 22px;
   height: 14px;
+}
+.buttons__res:hover, .buttons__sub:hover {
+  background-color: #fff;
+  color: #1c5bc3;
+}
+.buttons__sub:hover::after {
+  background-image: url('../../img/main_icon1.png');
 }
