@@ -49,7 +49,7 @@
   letter-spacing: 2.4px;
   color: #1c5bc3;
   border: 1px solid currentColor;
-  padding: 16px 8px 16px 20px;
+  padding: 16px 48px 16px 20px;
   text-align: center;
   display: flex;
   align-items: center;
@@ -59,21 +59,42 @@
   text-transform: uppercase;
   transition: .6s;
   border-radius: 3px;
+  position: relative;
 }
-.welcome__btn::after {
+.welcome__btn:after {
   content: "";
-  display: block;
-  width: 15px;
+  background-image: url('../../img/sprite-nav-btn.png');
+  width: 22px;
   height: 14px;
-  background: url('../../img/main_icon1.png') center center / contain no-repeat;
-  padding-left: 30px;
+  position: absolute;
+  right: 19px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-position: -98px -50px;
+  transition: .6s;
+}
+.welcome__btn::before {
+  content: "";
+  background-image: url('../../img/sprite-nav-btn.png');
+  width: 22px;
+  height: 14px;
+  position: absolute;
+  right: 19px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-position: -10px -86px;
+  opacity: 0;
+  transition: .6s;
 }
 .welcome__btn:hover {
   background-color: #1c5bc3;
   color: #fff;
 }
 .welcome__btn:hover::after {
-  background-image: url('../../img/main_icon-white.png');
+  opacity: 0;
+}
+.welcome__btn:hover::before {
+  opacity: 1;
 }
 @keyframes bounce {
   0% {
