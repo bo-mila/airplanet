@@ -3,6 +3,12 @@
   flex-direction: column;
   align-items: center;
 }
+.billet-ver--news .billet-ver__img {
+  margin-bottom: 47px;
+}
+.billet-ver--news .billet-ver__img::after{
+  display: none;
+}
 .billet-ver__img {
   max-width: 160px;
   overflow: hidden;
@@ -38,6 +44,13 @@
   text-align: center;
   color: #221f1f;
   padding: 13px 0 46px 0;
+}
+.billet-ver--news .billet-ver__desc {
+  text-align: left;
+}
+.billet-ver--news .billet-ver__data {
+  font-weight: 300;
+  color: #656464;
 }
 .billet-ver__title {
   font-size: 18px;

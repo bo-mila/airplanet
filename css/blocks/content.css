@@ -1,7 +1,10 @@
 .content {
-  padding-top: 13px;
+  padding-top: 25px;
   padding-bottom: 62px;
   font-size: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 .content__container {
   display: flex;

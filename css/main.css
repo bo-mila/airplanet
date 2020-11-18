@@ -4,11 +4,11 @@
 @import url('./blocks/header.css');
 @import url('./blocks/contacts.css');
 @import url('./blocks/content.css');
+@import url('./blocks/main-content-main.css');
 @import url('./blocks/sidebar.css');
-@import url('./blocks/nav.css');
 @import url('./blocks/main-content.css');
+@import url('./blocks/nav.css');
 @import url('./blocks/slogan.css');
-@import url('./blocks/tariffs.css');
 @import url('./blocks/tariff.css');
 @import url('./blocks/news.css');
 @import url('./blocks/billet-hor.css');

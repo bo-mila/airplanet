@@ -1,8 +1,12 @@
 .network h5 {
-  margin: 0;
-  margin-bottom: 8px;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  margin-bottom: 12px;
   font-weight: bold;
   font-size: 14px;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #2d1d1d;
 }
 .network__item {
   display: inline-block;
@@ -12,7 +16,7 @@
   border-radius: 50%;
   width: 20px;
   height: 20px;
-  opacity: .6;
+  opacity: .7;
   transition: .6s;
 }
 .network__item:last-child {
