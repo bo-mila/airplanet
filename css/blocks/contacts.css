@@ -10,9 +10,22 @@
   font-weight: bold;
   text-align: right;
 }
-.contacts__hours {
-  display: block;
+.contacts__days {
   font-size: 14px;
-  opacity: .7;
-  text-decoration: underline;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1c5bc3;
+  margin-bottom: 8px;
+}
+.contacts__rest {
+  font-size: 14px;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-weight: 300;
+  color: #221f1f;
 }
