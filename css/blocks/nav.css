@@ -1,5 +1,5 @@
 .nav {
-  margin-bottom: 12px;
+  margin-bottom: 18px;
 }
 .nav__list {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
@@ -21,7 +21,7 @@
   transition: .6s;
   cursor: pointer;
   align-items: center;
-  padding-left: 50px;
+  padding-left: 35px;
 }
 .nav__item:last-child {
   margin-right: 0;

@@ -1,11 +1,11 @@
 .partners {
   width: 100%;
   border: solid 1px #e8e9ed;
-  padding: 28px 0 30px;
+  padding: 24px 0 30px;
   margin-bottom: 30px;
 }
 .partners__title {
-  /* margin-bottom: 10px; */
+  margin-bottom: 31px;
   text-align: center;
   font-size: 18px;
   text-transform: uppercase;
@@ -17,7 +17,10 @@
   align-items: center;
 }
 .partners__item {
-  padding: 25px 0;
   margin: 0 auto;
+  margin-bottom: 51px;
   cursor: pointer;
+}
+.partners__item:last-child {
+  margin-bottom: 0;
 }

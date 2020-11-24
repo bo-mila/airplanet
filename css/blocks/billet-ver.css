@@ -4,7 +4,7 @@
   align-items: center;
 }
 .billet-ver--news .billet-ver__img {
-  margin-bottom: 47px;
+  margin-bottom: 28px;
 }
 .billet-ver--news .billet-ver__img::after{
   display: none;
@@ -43,7 +43,7 @@
   line-height: 1.5;
   text-align: center;
   color: #221f1f;
-  padding: 13px 0 46px 0;
+  padding: 13px 0 44px 0;
 }
 .billet-ver--news .billet-ver__desc {
   text-align: left;

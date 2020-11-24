@@ -1,6 +1,6 @@
 .content {
-  padding-top: 25px;
-  padding-bottom: 62px;
+  padding-top: 28px;
+  padding-bottom: 47px;
   font-size: 0;
   display: flex;
   flex-direction: row;
@@ -9,7 +9,9 @@
 .content__container {
   display: flex;
 }
-.content--reviews-team {
-  padding-top: 44px;
-  padding-bottom: 50px;
+.content--reviews {
+  padding-bottom: 28px;
+}
+.content--team {
+  padding-bottom: 35px;
 }

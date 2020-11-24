@@ -1,6 +1,6 @@
 .network h5 {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  margin-bottom: 12px;
+  margin-bottom: 5px;
   font-weight: bold;
   font-size: 14px;
   font-stretch: normal;
@@ -8,13 +8,16 @@
   letter-spacing: normal;
   color: #2d1d1d;
 }
+.network--reviews-team h5 {
+  margin-bottom: 12px;
+}
 .network__list {
   display: flex;
   justify-content: center;
 }
 .network__item {
   display: inline-block;
-  margin-right: 6px;
+  margin-right: 8px;
   position: relative;
   background-color: #fff;
   border-radius: 50%;
