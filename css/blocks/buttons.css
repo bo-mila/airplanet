@@ -11,6 +11,7 @@
   font-weight: bold;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   letter-spacing: 1.2px;
+  transition: .6s;
 }
 .buttons__res {
   margin-right: 7px;
@@ -18,10 +19,42 @@
 .buttons__sub {
   display: flex;
   align-items: center;
+  position: relative;
+  padding-right: 50px;
+
 }
 .buttons__sub:after {
   content: "";
-  background: url('../../img/main_icon-white.png') left 5px center no-repeat ;
+  background-image: url('../../img/sprite-nav-btn.png');
   width: 22px;
   height: 14px;
+  position: absolute;
+  right: 19px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-position: -10px -86px;
+  transition: .6s;
+}
+.buttons__sub::before {
+  content: "";
+  background-image: url('../../img/sprite-nav-btn.png');
+  width: 22px;
+  height: 14px;
+  position: absolute;
+  right: 19px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-position: -98px -50px;
+  opacity: 0;
+  transition: .6s;
+}
+.buttons__res:hover, .buttons__sub:hover {
+  background-color: #fff;
+  color: #1c5bc3;
+}
+.buttons__sub:hover::after {
+  opacity: 0;
+}
+.buttons__sub:hover::before {
+  opacity: 1;
 }

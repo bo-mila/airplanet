@@ -1,19 +1,31 @@
 .network h5 {
-  margin: 0;
-  margin-bottom: 8px;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  margin-bottom: 5px;
   font-weight: bold;
   font-size: 14px;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #2d1d1d;
+}
+.network--reviews-team h5 {
+  margin-bottom: 12px;
+}
+.network__list {
+  display: flex;
+  justify-content: center;
 }
 .network__item {
   display: inline-block;
-  margin-right: 6px;
+  margin-right: 8px;
   position: relative;
   background-color: #fff;
   border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  opacity: .6;
+  width: 22px;
+  height: 22px;
+  opacity: .7;
   transition: .6s;
+  cursor: pointer;
 }
 .network__item:last-child {
   margin-right: 0;
@@ -21,10 +33,40 @@
 .network__item:hover {
   opacity: 1;
 }
-.network__pic {
-  opacity: 1;
+.network__item::before {
+  content: "";
   position: absolute;
+  display: block;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+  background-image: url('../../img/sprite-network.png');
+}
+.network__item--vk::before {
+  background-position: -41px -39px;
+  width: 12px;
+  height: 7px;
+}
+.network__item--fb::before {
+  background-position: -77px -10px;
+  width: 6px;
+  height: 13px;
+}
+.network__item--google::before {
+  background-position: -10px -10px;
+  width: 15px;
+  height: 9px;
+}
+.network__item--tw::before {
+  background-position: -10px -39px;
+  width: 11px;
+  height: 9px;
+}
+.network__item--mail::before {
+  background-position: -45px -10px;
+  width: 12px;
+  height: 9px;
+}
+.network__ref {
+  display: block;
 }

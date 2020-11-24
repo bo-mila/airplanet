@@ -3,10 +3,9 @@
   font-size: 14px;
   font-weight: 300;
   color: #221f1f;
-  padding-top: 58px;
-  padding-bottom: 40px;
   margin: 0 auto;
+  padding-bottom: 22px;
 }
 .feadback__container {
-  width: 700px;
+  width: 89%;
 }

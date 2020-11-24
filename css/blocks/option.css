@@ -6,13 +6,16 @@
 .option:last-child {
   margin-right: 0;
 }
-.option--active {
+.radio {
+  display: none;
+}
+.radio:checked ~ .option__title {
   color:#4b73b5;
 }
-.option--active .option__radio {
+.radio:checked ~ .option__radio {
   border-color: #4b73b5;
 }
-.option--active .option__radio::after {
+.radio:checked ~ .option__radio::after {
   background-color:#4b73b5;
 }
 .option__radio {
